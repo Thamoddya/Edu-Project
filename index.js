@@ -55,7 +55,7 @@ app.use("/api/sms",SmsRouter);
 // connect to db
 connectDb();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 // listen for requests
 app.listen(PORT);
